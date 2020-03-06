@@ -1,4 +1,4 @@
-/*这些点考的太近了我还没有什么办*/
+
 #root{
   max-width: 921px;
   margin:0px auto
@@ -38,7 +38,6 @@
   width:250px;
 }
 
-/*我就想让我的元素可以在页面中随意散步*/
 .card-container {
 position: relative;
 width: 600px;
@@ -185,14 +184,3 @@ input{
   font-size: 14px;
   z-index: 1;
 }
-
-/*<div className={`card ${[probs.id]}`} onClick={() => probs.onClick()} style={{backgroundImage:`url(${probs.back})` ,zIndex:zindex
-,transform:rotate(`${r}deg`),left:`${left}.px`,top:`${top}.px`}} >*/
-
-
-/*<span class="input input--kyo">
-<input class="input__field input__field--kyo" type="text" id="input-19" />
-<label class="input__label input__label--kyo" for="input-19">
-  <span class="input__label-content input__label-content--kyo">What's your email?</span>
-</label>
-</span>*/
